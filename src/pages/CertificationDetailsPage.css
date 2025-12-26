@@ -1,0 +1,151 @@
+.cert-details-page {
+    background-color: #FFFFFF;
+    color: #333;
+    font-family: 'Open Sans', system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-content {
+    padding: 60px 0;
+    flex: 1;
+}
+
+.details-content .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.details-intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.note-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    text-decoration: underline;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 40px 0 24px;
+    color: #333;
+}
+
+/* Steps */
+.step-block {
+    margin-bottom: 20px;
+}
+
+.step-label {
+    color: #83b542;
+    /* Green accent */
+    font-weight: 700;
+}
+
+.highlight-text {
+    font-weight: 700;
+}
+
+.step-block ul,
+.step-block ol {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.step-block li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.step-block ul li {
+    list-style-type: disc;
+    color: #83b542;
+    /* Green bullets */
+}
+
+.step-block ul li span,
+.step-block ul li {
+    color: #555;
+    /* Reset text color */
+}
+
+/* Fix boolean color issue with bullets - simplest is span or marker styling logic, defaulting to text color */
+.step-block ul li::marker {
+    color: #83b542;
+}
+
+.sub-list {
+    margin-top: 8px !important;
+    list-style-type: disc !important;
+}
+
+.completion-note {
+    font-style: italic;
+    color: #666;
+    margin: 30px 0;
+    line-height: 1.5;
+}
+
+/* CTA Button */
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.get-certified-btn {
+    background-color: #83b542;
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.get-certified-btn:hover {
+    background-color: #6ea030;
+}
+
+/* Redirect Notice */
+.redirect-notice {
+    background-color: #fcf8e3;
+    border: 1px solid #faebcc;
+    color: #8a6d3b;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+
+.warning-icon {
+    font-size: 1.2rem;
+}
+
+/* Recertification */
+.recertification-section {
+    margin-top: 60px;
+}
+
+.divider-line {
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 40px;
+}

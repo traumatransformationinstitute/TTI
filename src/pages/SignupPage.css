@@ -1,0 +1,12 @@
+/* Basic overrides or additions to LoginPage styles */
+.form-privacy {
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.form-privacy a {
+    color: #333;
+    text-decoration: underline;
+}

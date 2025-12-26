@@ -1,0 +1,76 @@
+.hero {
+  background-color: #f0f0f0;
+  /* Fallback */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://placehold.co/1920x600/EEE/31343C?font=playfair-display&text=ETT%20INDIA');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.hero1 {
+  background-color: #f0f0f0;
+  /* Fallback */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.hero-content h1 {
+  color: var(--color-primary-navy);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-subtext {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--color-text-dark);
+}
+
+.hero-badge {
+  position: absolute;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--color-primary-navy);
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.badge-text {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .hero-badge {
+    display: none;
+  }
+}
+
+.hero-logo {
+  max-width: 80%;
+  height: auto;
+  max-height: 200px;
+  margin: 0 auto;
+}
