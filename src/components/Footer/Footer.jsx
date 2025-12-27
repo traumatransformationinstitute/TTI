@@ -12,10 +12,8 @@ const Footer = () => {
           <div className="footer-col">
             <h3 className="footer-heading">Contact Us</h3>
             <div className="footer-info">
-              <p>18020 N 7th St, Ste. 220</p>
-              <p>Phoenix, AZ 85024</p>
-              <p><a href="mailto:help@aztrauma.org">help@aztrauma.org</a></p>
-              <p>Office: (480) 442-1840</p>
+              <p><a href="mailto:ssidhu@lightmindsett.com">ssidhu@lightmindsett.com</a></p>
+              <p>972-336-1591</p>
             </div>
           </div>
 
